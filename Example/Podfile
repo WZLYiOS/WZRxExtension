@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'WZRxExtension_Example' do
+  pod 'WZRxExtension', :path => '../'
+
+end
