@@ -20,9 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'WZRxExtension'
 ```
 
-## Author
-
-LiuSky, 327847390@qq.com
 
 ## License
 
