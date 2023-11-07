@@ -1,6 +1,6 @@
 {
   "name": "WZRxExtension",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "A short description of WZRxExtension.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/WZLYiOS/WZRxExtension",
@@ -13,21 +13,21 @@
   },
   "source": {
     "git": "https://github.com/WZLYiOS/WZRxExtension.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "static_framework": true,
   "swift_versions": "5.0",
   "requires_arc": true,
   "platforms": {
-    "ios": "9.0"
+    "ios": "12.0"
   },
   "default_subspecs": "Core",
   "dependencies": {
     "RxSwift": [
-      "~> 5.1.0"
+      ">= 6.0.0"
     ],
     "RxCocoa": [
-      "~> 5.1.0"
+      ">= 6.0.0"
     ]
   },
   "subspecs": [

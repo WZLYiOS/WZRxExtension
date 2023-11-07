@@ -1,17 +1,17 @@
 PODS:
-  - RxCocoa (5.1.1):
-    - RxRelay (~> 5)
-    - RxSwift (~> 5)
-  - RxRelay (5.1.1):
-    - RxSwift (~> 5)
-  - RxSwift (5.1.1)
-  - WZRxExtension (0.1.0):
-    - RxCocoa (~> 5.1.0)
-    - RxSwift (~> 5.1.0)
-    - WZRxExtension/Core (= 0.1.0)
-  - WZRxExtension/Core (0.1.0):
-    - RxCocoa (~> 5.1.0)
-    - RxSwift (~> 5.1.0)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
+  - WZRxExtension (0.3.0):
+    - RxCocoa (>= 6.0.0)
+    - RxSwift (>= 6.0.0)
+    - WZRxExtension/Core (= 0.3.0)
+  - WZRxExtension/Core (0.3.0):
+    - RxCocoa (>= 6.0.0)
+    - RxSwift (>= 6.0.0)
 
 DEPENDENCIES:
   - WZRxExtension (from `../`)
@@ -27,11 +27,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
-  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
-  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
-  WZRxExtension: 1a158cccf6ccfb41339a0337c550ca48fb9628a0
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  WZRxExtension: 574aa5d1caa3c188ab9159d70a09d29d99ae52bb
 
 PODFILE CHECKSUM: 2771a54b79509c9205445ed4e7966d9263104fb7
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.12.1

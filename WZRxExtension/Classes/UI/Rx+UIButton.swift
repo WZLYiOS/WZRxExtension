@@ -18,7 +18,8 @@ public extension Reactive where Base: UIButton {
             button.isSelected = !button.isSelected
             return button.isSelected
         }
-        let sink = isSelected
-        return ControlProperty(values: source, valueSink: sink)
+        let sink = self.isSelected
+        let type = ControlProperty(values: source, valueSink: sink);
+        return type
     }
 }
