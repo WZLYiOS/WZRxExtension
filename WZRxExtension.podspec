@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WZRxExtension'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of WZRxExtension.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -43,6 +43,6 @@ TODO: Add long description of the pod here.
     ss.source_files = "WZRxExtension/Classes/Tool/*"
   end
   
-  s.dependency "RxSwift", "~> 5.1.0"
-  s.dependency "RxCocoa", "~> 5.1.0"
+  s.dependency "RxSwift", ">= 5.1.0"
+  s.dependency "RxCocoa", ">= 5.1.0"
 end
