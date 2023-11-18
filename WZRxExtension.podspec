@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WZRxExtension'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'A short description of WZRxExtension.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
